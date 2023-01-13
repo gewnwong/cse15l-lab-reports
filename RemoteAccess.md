@@ -1,9 +1,3 @@
-Overall, make sure you have at least 3 screenshots, one for each of the steps below (though more is useful, remember that this will help out your future self). For each step include 2-3 sentences or bullet points describing what you did. If for some reason you didn’t do the step exactly, describe why not (maybe your computer already had something on it, maybe the department computers worked differently, etc).
-
-Installing VScode
-Remotely Connecting
-Trying Some Commands
-
 # Remote Access Lab Report
 ---
 ## Installing VScode
@@ -11,8 +5,12 @@ Trying Some Commands
 - I didn't have to download VScode in this session because I had already downloaded it onto my device for CSE11.
 
 ## Remotely Connecting
-
+![Screenshot 2023-01-12 at 10 53 44 PM](https://user-images.githubusercontent.com/122576781/212256320-5e0e9699-1b44-4313-a6c5-07d82d1c263e.png)
 - To connect remotely, since I was using Mac OS, I opened the terminal on my computer and directly typed in the command ssh cs15lwi23auq@ieng6.ucsd.edu.
-- After entering my password and agreeing to connect to the host, my terminal displayed a message indicating I was 
+- After entering my password and agreeing to connect to the host, my terminal displayed a message indicating I was currently logged in.
 
 ## Trying Some Commands 
+<img width="608" alt="Screenshot 2023-01-12 at 10 59 00 PM" src="https://user-images.githubusercontent.com/122576781/212257233-1de1ade1-9867-4ef1-b466-5711bb339dd6.png">
+<img width="621" alt="Screenshot 2023-01-12 at 3 07 07 PM" src="https://user-images.githubusercontent.com/122576781/212257295-48b86526-328a-4c5d-9899-fec038633a95.png">
+- I tried a variety of commands on the remote server, thus going in and out of directories (cd)(..), printing the contents of files (cat), and viewing the current working directories (ls <directory>. 
+- I performed similar commands on my computer after using the exit command since I could check the progression within my terminal from my finder. 
