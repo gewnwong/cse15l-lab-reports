@@ -42,4 +42,4 @@ I tried a variety of commands on the remote server, thus going in and out of dir
   
 <img width="621" alt="Screenshot 2023-01-12 at 3 07 07 PM" src="https://user-images.githubusercontent.com/122576781/212257295-48b86526-328a-4c5d-9899-fec038633a95.png">
   
-I thought it was interesting to be able to go through the finder I've always been using in a different format. This lab was also the one of the first times I actually opened the Terminal app on my computer to actively do something. 
+I thought it was interesting to be able to go through the finder I've always been using in a different format. This lab was also the one of the first times I actually opened the Terminal app on my computer to actively do something; previously, I hadn't really acknowledged that it held a funciton.
