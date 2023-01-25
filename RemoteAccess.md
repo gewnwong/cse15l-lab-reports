@@ -3,7 +3,18 @@
 ## Installing VScode
 
 To download VScode, I started by going to [Visual Studio Code's Download Page](https://code.visualstudio.com/).
+
 <img width="1440" alt="Screenshot 2023-01-25 at 11 39 03 AM" src="https://user-images.githubusercontent.com/122576781/214670527-fb25d8be-2dec-49e5-a0ec-6c5c2c60a751.png">
+
+I clicked on the button labeled "Download Mac Universal" and, after the zip file had finished downloading, I found it in my finder and unzipped it. 
+
+<img width="785" alt="Screenshot 2023-01-25 at 11 43 29 AM" src="https://user-images.githubusercontent.com/122576781/214672165-6e2ff987-d26c-4d12-bc7e-7f8ed46c834b.png">
+
+I was then able to open and run the application.
+
+![Screenshot 2023-01-25 at 11 44 06 AM](https://user-images.githubusercontent.com/122576781/214672630-5367322e-98f9-4c09-aa60-75e245ee0ac5.png)
+
+(Note: My display doens't look exactly as VScode upon first download because I'd downloaded it prior to this lab)
 
 
 ## Remotely Connecting
