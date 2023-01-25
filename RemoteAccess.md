@@ -14,7 +14,7 @@ I was then able to open and run the application.
 
 ![Screenshot 2023-01-25 at 11 44 06 AM](https://user-images.githubusercontent.com/122576781/214672630-5367322e-98f9-4c09-aa60-75e245ee0ac5.png)
 
-(Note: My display doens't look exactly as VScode upon first download because I'd downloaded it prior to this lab)
+(Note: My display doens't look exactly as VScode upon first opening because I'd downloaded it prior to this lab)
 
 
 ## Remotely Connecting
@@ -33,7 +33,13 @@ Another message then showed up indicating I was currently logged into the remote
 
 
 ## Trying Some Commands 
+
+I tried a variety of commands on the remote server, thus going in and out of directories (cd)(..), printing the contents of files (cat), and viewing the current working directories (ls <directory>).
+
 <img width="608" alt="Screenshot 2023-01-12 at 10 59 00 PM" src="https://user-images.githubusercontent.com/122576781/212257233-1de1ade1-9867-4ef1-b466-5711bb339dd6.png">
+  
+ I also performed similar commands on my computer after using the exit command so I could better understand the progression within my terminal from my finder.
+  
 <img width="621" alt="Screenshot 2023-01-12 at 3 07 07 PM" src="https://user-images.githubusercontent.com/122576781/212257295-48b86526-328a-4c5d-9899-fec038633a95.png">
-- I tried a variety of commands on the remote server, thus going in and out of directories (cd)(..), printing the contents of files (cat), and viewing the current working directories (ls <directory>. 
-- I performed similar commands on my computer after using the exit command since I could check the progression within my terminal from my finder. 
+  
+ 
