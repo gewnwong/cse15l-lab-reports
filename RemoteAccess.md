@@ -6,7 +6,7 @@
 
 ## Remotely Connecting
 ![Screenshot 2023-01-12 at 10 53 44 PM](https://user-images.githubusercontent.com/122576781/212256320-5e0e9699-1b44-4313-a6c5-07d82d1c263e.png)
-- To connect remotely, since I was using Mac OS, I opened the terminal on my computer and directly typed in the command ssh cs15lwi23auq@ieng6.ucsd.edu.
+- To connect remotely, since I was using Mac OS, I opened the terminal on my computer and directly typed in the command `ssh cs15lwi23auq@ieng6.ucsd.edu`.
 - After entering my password and agreeing to connect to the host, my terminal displayed a message indicating I was currently logged in.
 
 ## Trying Some Commands 
