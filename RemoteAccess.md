@@ -3,7 +3,8 @@
 ## Installing VScode
 
 To download VScode, I started by going to [Visual Studio Code's Download Page](https://code.visualstudio.com/).
-<img width="1680" alt="Screenshot 2023-01-12 at 2 12 29 PM" src="https://user-images.githubusercontent.com/122576781/212250906-a23212f2-9df0-4cc7-8a7e-5eb91a843b18.png">
+<img width="1440" alt="Screenshot 2023-01-25 at 11 39 03 AM" src="https://user-images.githubusercontent.com/122576781/214670527-fb25d8be-2dec-49e5-a0ec-6c5c2c60a751.png">
+
 
 ## Remotely Connecting
 
