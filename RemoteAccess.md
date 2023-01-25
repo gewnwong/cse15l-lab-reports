@@ -34,7 +34,7 @@ Another message then showed up indicating I was currently logged into the remote
 
 ## Trying Some Commands 
 
-I tried a variety of commands on the remote server, thus going in and out of directories (`cd`)(`..`), printing the contents of files (`cat`), and viewing the current working directories (`ls <directory>`).
+I tried a variety of commands on the remote server, thus going in and out of directories (```cd```)(```..```), printing the contents of files (```cat```), and viewing the current working directories (```ls <directory>```).
 
 <img width="608" alt="Screenshot 2023-01-12 at 10 59 00 PM" src="https://user-images.githubusercontent.com/122576781/212257233-1de1ade1-9867-4ef1-b466-5711bb339dd6.png">
   
