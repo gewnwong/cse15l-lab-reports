@@ -1,4 +1,4 @@
-# Remote Access Lab Report EEGFEEGMEEG
+# Remote Access Lab Report
 ---
 ## Installing VScode
 
