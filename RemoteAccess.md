@@ -1,8 +1,9 @@
 # Remote Access Lab Report
 ---
 ## Installing VScode
+
+To download VScode, I started by going to [Visual Studio Code's Download Page](https://code.visualstudio.com/).
 <img width="1680" alt="Screenshot 2023-01-12 at 2 12 29 PM" src="https://user-images.githubusercontent.com/122576781/212250906-a23212f2-9df0-4cc7-8a7e-5eb91a843b18.png">
-- I didn't have to download VScode in this session because I had already downloaded it onto my device for CSE11.
 
 ## Remotely Connecting
 
