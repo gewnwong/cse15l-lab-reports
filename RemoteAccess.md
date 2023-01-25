@@ -5,11 +5,17 @@
 - I didn't have to download VScode in this session because I had already downloaded it onto my device for CSE11.
 
 ## Remotely Connecting
+
 To start conencting to the remote serve, since I was using Mac OS, I opened the terminal on my computer located in Launchpad.
+
 <img width="418" alt="Screenshot 2023-01-25 at 11 22 43 AM" src="https://user-images.githubusercontent.com/122576781/214666117-fd85369d-9cae-4ba4-b010-a36a58ad67f3.png">
+
 After my terminal was up, I then typed in the command ```ssh cs15lwi23auq@ieng6.ucsd.edu``` to access my student remote server. A message prompting for my password showed up, I entered it, and agreed to connect to the host (only necessary for first connection to the remote server).
+
 <img width="586" alt="Screenshot 2023-01-25 at 11 29 41 AM" src="https://user-images.githubusercontent.com/122576781/214668258-5fb42a0c-b683-4566-9fd2-7538e25bfad7.png">
+
 Another message then showed up indicating I was currently logged into the remote server.
+
 <img width="584" alt="Screenshot 2023-01-25 at 11 34 44 AM" src="https://user-images.githubusercontent.com/122576781/214669479-110a8786-0d0c-4140-9d8a-9404e0988404.png">
 
 
