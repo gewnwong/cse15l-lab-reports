@@ -38,7 +38,7 @@ I tried a variety of commands on the remote server, thus going in and out of dir
 
 <img width="608" alt="Screenshot 2023-01-12 at 10 59 00 PM" src="https://user-images.githubusercontent.com/122576781/212257233-1de1ade1-9867-4ef1-b466-5711bb339dd6.png">
   
- I also performed similar commands on my computer after using the exit command so I could better understand the progression within my terminal from my finder.
+ I also performed similar commands on my computer after using the ```exit``` command so I could better understand the progression within my terminal from my finder.
   
 <img width="621" alt="Screenshot 2023-01-12 at 3 07 07 PM" src="https://user-images.githubusercontent.com/122576781/212257295-48b86526-328a-4c5d-9899-fec038633a95.png">
   
