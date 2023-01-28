@@ -70,11 +70,20 @@ I chose the bug from the averageWithoutLowest method in ArrayExamples.java.
 
 A failure-inducing input for the buggy program:
 
+    @Test
+    public void testAverageWithoutLowest1() {
+        double[] input1 = {2.0, 2.0, 6.0, 2.0, 6.0, 2.0};
+        assertEquals(6.0, ArrayExamples.averageWithoutLowest(input1), 0.0);
+    }
 
 
 An input that doesn't induce a failure:
 
-
+    @Test 
+    public void testAverageWithoutLowest2() {
+        double[] input1 = {1.0, 4.0, 8.0, 6.0};
+        assertEquals(6.0, ArrayExamples.averageWithoutLowest(input1), 0.0);
+    }
 
 The symptom, as the output of running the above tests:
 
