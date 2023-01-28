@@ -87,6 +87,7 @@ An input that doesn't induce a failure:
 
 The symptom, as the output of running the above tests:
 
+<img width="783" alt="Screenshot 2023-01-28 at 9 35 05 AM" src="https://user-images.githubusercontent.com/122576781/215282136-c44880f7-8ab9-4174-9684-14fa774e8f7e.png">
 
 The bug:
 
