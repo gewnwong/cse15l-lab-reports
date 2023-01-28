@@ -4,6 +4,8 @@
 
 ## Part 1
 
+The code for my StringServer:
+
     import java.io.IOException;
     import java.net.URI;
     import java.util.*;
@@ -51,6 +53,19 @@
             Server.start(port, new Handler());
         }
     }
+
+2 screenshots of using ```/add-message```:
+
+<img width="565" alt="Screenshot 2023-01-28 at 8 38 40 AM" src="https://user-images.githubusercontent.com/122576781/215278682-b3b1d6ee-4ebc-4658-bc7e-77d2ade1bdba.png">
+
+
+<img width="608" alt="Screenshot 2023-01-28 at 8 39 14 AM" src="https://user-images.githubusercontent.com/122576781/215278701-4952ae90-2516-4e8b-9e83-49e0cfb9fe26.png">
+
+
+
+
+
+
 
 ## Part 2
 
