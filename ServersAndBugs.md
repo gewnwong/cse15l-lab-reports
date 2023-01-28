@@ -64,12 +64,43 @@ The method in my code that is called is handleRequest, after the main method in 
 
 The method in my code that is called is handleRequest, after the main method in StringServer starts the server. The relevant argument to this method is the URI used. There are two other relevant fields of the class, an ArrayList of Strings and a StringBuilder, both of which are initialized with default values. These values are later changed with the call to handleRequest and, upon finding a path including ```/add-message``` in the given URI, alters the values of the ArrayList and the StringBuilder. In this case, the ArrayList temporarily holds the input (the String after the ```/add-message?s=```) (specifically, "StringServer.java is running") from the URI before it then gets added to the end of the StringBuilder (with formatting included). The StringBuilder result that is returned as a String then had the value "15L Lab Report 2\nStringServer.java is running". The URI remains unchanged throughout this process.
 
-
-
-
-
-
 ## Part 2
+
+I chose the bug from the averageWithoutLowest method in ArrayExamples.java. 
+
+A failure-inducing input for the buggy program:
+
+
+
+An input that doesn't induce a failure:
+
+
+
+The symptom, as the output of running the above tests:
+
+
+The bug:
+
+Before fixing (what caused the symptoms seen):
+
+    static double averageWithoutLowest(double[] arr) {
+        if(arr.length < 2) { return 0.0; }
+        double lowest = arr[0];
+        for(double num: arr) {
+          if(num < lowest) { lowest = num; }
+        }
+        double sum = 0;
+        for(double num: arr) {
+          if(num != lowest) { sum += num; }
+        }
+        return sum / (arr.length - 1);
+      }
+
+After fixing:
+
+
+
+This fix addresses the issue because
 
 
 ## Part 3
