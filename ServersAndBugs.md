@@ -91,7 +91,7 @@ The symptom, as the output of running the above tests:
 
 The bug:
 
-Before fixing (what caused the symptoms seen):
+The bug is in the line ```return sum / (arr.length - 1)``` below. Before fixing (what caused the symptoms seen):
 
     static double averageWithoutLowest(double[] arr) {
         if(arr.length < 2) { return 0.0; }
