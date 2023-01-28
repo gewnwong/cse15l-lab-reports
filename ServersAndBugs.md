@@ -1,11 +1,11 @@
-## Servers and Bugs Lab Report (2)
+# Servers and Bugs Lab Report (2)
 
 ---
 
-# Part 1
+## Part 1
 
 
-# Part 2
+## Part 2
 
 
-# Part 3
+## Part 3
