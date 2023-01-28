@@ -103,7 +103,7 @@ Before fixing (what caused the symptoms seen):
         for(double num: arr) {
           if(num != lowest) { sum += num; }
         }
-        ==return sum / (arr.length - 1);==
+        return sum / (arr.length - 1);
       }
 
 After fixing:
@@ -124,7 +124,7 @@ After fixing:
       }
     }
 
-This fix addresses the issue because
+The bug was that the code assumed only one of the lowest number in the double array input would be taken out of account when calculating the average. However, it can be seen that all instances of the lowest number were removed from adding together the values of the double array, so dividing by the length of the array minus one wouldn't divide by the number of elements added together (which needs to be done to find the average). To compensate for this idea, I included a variable to keep track of how many elements were not counted (and are thus the lowest), and instead of subtracting 1 from the length of the array, I subtracted the counter from the length of the array. This works as intended because now the result of the addition of the elements of the double array while not including all occurrences of the lowest number is divided by the number of elements that were summed, thus giving the average of those elements. 
 
 
 ## Part 3
