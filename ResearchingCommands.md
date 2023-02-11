@@ -37,7 +37,7 @@ Example 2:
     emeralds
     written_2/travel_guides/berlitz1/WhereToLakeDistrict.txt:        Buttermere is one of the pearls of the Lake district.
 
-Explanation of function: The ```-i``` option for ```grep``` looks through the files in a given directory to return the ones matching the given pattern (in quotation marks) without regard for case in the pattern. This is useful because it is less picky with syntax, and may be helpful if one is looking for all occurances of a pattern, regardless of capitalization techniques. 
+Explanation of function: The ```-i``` option for ```grep``` looks through the files in a given directory to print the lines of a file matching the given pattern (in quotation marks) without regard for case in the pattern. This is useful because it is less picky with syntax, and may be helpful if one is looking for all occurances of a pattern, regardless of capitalization techniques. 
 
 https://man7.org/linux/man-pages/man1/grep.1.html
 
@@ -127,12 +127,12 @@ Example 1:
 
 Example 2:
 
-    **$ grep -c "tower" written_2/non-fiction/OUP/Rybczynski/*.txt
+    $ grep -c "tower" written_2/non-fiction/OUP/Rybczynski/*.txt
     written_2/non-fiction/OUP/Rybczynski/ch1.txt:1
     written_2/non-fiction/OUP/Rybczynski/ch2.txt:8
-    written_2/non-fiction/OUP/Rybczynski/ch3.txt:1**
+    written_2/non-fiction/OUP/Rybczynski/ch3.txt:1
 
-Explanation of function: Output count of matching lines only.
+Explanation of function: The ```-c``` option for ```grep``` looks through the files in a given directory to print the number of lines the given pattern (in quotation marks) appears in each of the files. This could be useful for looking through a large amount of files in to find the ones that discuss a certain topic (pattern). 
 
 https://man7.org/linux/man-pages/man1/grep.1.html
 
@@ -140,19 +140,60 @@ https://man7.org/linux/man-pages/man1/grep.1.html
 
 Example 1:
 
+    $ grep -n "Lucayans" written_2/*/*/*.txt
+    written_2/travel_guides/berlitz2/Bahamas-History.txt:6:Centuries before the arrival of Columbus, a peaceful Amerindian 
+    people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had 
+    traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea 
+    and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the 
+    Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and 
+    mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in 
+    the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only 
+    two weeks before sailing towards Cuba.
+    written_2/travel_guides/berlitz2/Bahamas-History.txt:7:The Spaniards never bothered to settle in the Bahamas, but the 
+    number of shipwrecks attest that their galleons frequently passed through the archipelago en route to and from the 
+    Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now 
+    known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long 
+    journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of them, 
+    perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and pearl 
+    fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
+
 Example 2:
 
-Explanation of function: Precede each matching line with a line number.
+    $ grep -n "tower" written_2/non-fiction/OUP/Kauffman/*.txt
+    written_2/non-fiction/OUP/Kauffman/ch1.txt:7:ecturing in Dublin, one of the twentieth century’s most famous physicists set
+    the stage of contemporary biology during the war-heavy year of 1944. Given Erwin Schrödinger’s towering reputation as the 
+    discoverer of the Schrödinger equation, the fundamental formulation of quantum mechanics, his public lectures and 
+    subsequent book were bound to draw high attention. But no one, not even Schrödinger himself, was likely to have foreseen 
+    the consequences. Schrödinger’s What Is Life? is credited with inspiring a generation of physicists and biologists to seek 
+    the fundamental character of living systems. Schrödinger brought quantum mechanics, chemistry, and the still poorly 
+    formulated concept of “information” into biology. He is the progenitor of our understanding of DNA and the genetic code. Yet 
+    as brilliant as was Schrödinger’s insight, I believe he missed the center. Investigations seeks that center and finds, in fact, a mystery.
+
+
+Explanation of function: The ```-n``` oprion for ```grep``` looks through the files in a given directory to print the lines of a file matching the given pattern (in quotation marks), with a number after the file name indicating what line number the line is in the file. This could be useful when trying to locate where the pattern is from within the file.
 
 https://man7.org/linux/man-pages/man1/grep.1.html
 
-## 4. ```-v``` option
+## 4. ```-L``` option
 
 Example 1:
 
+    $ grep -L "tower" written_2/non-fiction/OUP/Kauffman/*.txt
+    written_2/non-fiction/OUP/Kauffman/ch10.txt
+    written_2/non-fiction/OUP/Kauffman/ch3.txt
+    written_2/non-fiction/OUP/Kauffman/ch4.txt
+    written_2/non-fiction/OUP/Kauffman/ch5.txt
+    written_2/non-fiction/OUP/Kauffman/ch6.txt
+    written_2/non-fiction/OUP/Kauffman/ch7.txt
+    written_2/non-fiction/OUP/Kauffman/ch8.txt
+    written_2/non-fiction/OUP/Kauffman/ch9.txt
+
+
 Example 2:
 
-Explanation of function: Invert match.
+    $ grep -L "tower" written_2/non-fiction/OUP/Rybczynski/*.txt
+
+Explanation of function: The ```-L``` option for ```grep``` looks through the files in a given directory to print the file names that did not have any matches to the given pattern (in quotation marks). This is useful when trying to eliminate files from a search based on the kind of material related to the pattern that they might contain.
 
 https://man7.org/linux/man-pages/man1/grep.1.html
 
