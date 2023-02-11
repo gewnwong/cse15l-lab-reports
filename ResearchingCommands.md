@@ -45,7 +45,92 @@ https://man7.org/linux/man-pages/man1/grep.1.html
 
 Example 1:
 
+    $ grep -c "jungle" written_2/travel_guides/berlitz2/*.txt
+    written_2/travel_guides/berlitz2/Algarve-History.txt:0
+    written_2/travel_guides/berlitz2/Algarve-Intro.txt:0
+    written_2/travel_guides/berlitz2/Algarve-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Amsterdam-History.txt:0
+    written_2/travel_guides/berlitz2/Amsterdam-Intro.txt:0
+    written_2/travel_guides/berlitz2/Amsterdam-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Amsterdam-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Athens-History.txt:0
+    written_2/travel_guides/berlitz2/Athens-Intro.txt:0
+    written_2/travel_guides/berlitz2/Athens-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Athens-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Bahamas-History.txt:0
+    written_2/travel_guides/berlitz2/Bahamas-Intro.txt:0
+    written_2/travel_guides/berlitz2/Bahamas-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Bali-History.txt:0
+    written_2/travel_guides/berlitz2/Bali-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Bali-WhereToGo.txt:1
+    written_2/travel_guides/berlitz2/Barcelona-History.txt:0
+    written_2/travel_guides/berlitz2/Barcelona-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Barcelona-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Beijing-History.txt:0
+    written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Beijing-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Berlin-History.txt:0
+    written_2/travel_guides/berlitz2/Berlin-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Berlin-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Bermuda-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Bermuda-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Bermuda-history.txt:0
+    written_2/travel_guides/berlitz2/Boston-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Budapest-History.txt:0
+    written_2/travel_guides/berlitz2/Budapest-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Budapest-WhereoGo.txt:0
+    written_2/travel_guides/berlitz2/California-History.txt:0
+    written_2/travel_guides/berlitz2/California-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/California-WhereToGo.txt:2
+    written_2/travel_guides/berlitz2/Canada-History.txt:0
+    written_2/travel_guides/berlitz2/Canada-WhereToGo.txt:1
+    written_2/travel_guides/berlitz2/CanaryIslands-History.txt:0
+    written_2/travel_guides/berlitz2/CanaryIslands-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/CanaryIslands-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Cancun-History.txt:4
+    written_2/travel_guides/berlitz2/Cancun-WhatToDo.txt:1
+    written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt:6
+    written_2/travel_guides/berlitz2/China-History.txt:0
+    written_2/travel_guides/berlitz2/China-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/China-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Costa-History.txt:0
+    written_2/travel_guides/berlitz2/Costa-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Costa-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/CostaBlanca-History.txt:0
+    written_2/travel_guides/berlitz2/CostaBlanca-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Crete-History.txt:0
+    written_2/travel_guides/berlitz2/Crete-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Crete-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/CstaBlanca-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Cuba-History.txt:0
+    written_2/travel_guides/berlitz2/Cuba-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Cuba-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Nepal-History.txt:0
+    written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt:1
+    written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt:4
+    written_2/travel_guides/berlitz2/NewOrleans-History.txt:0
+    written_2/travel_guides/berlitz2/Paris-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Paris-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Poland-History.txt:0
+    written_2/travel_guides/berlitz2/Poland-WhatToDo.txt:1
+    written_2/travel_guides/berlitz2/Portugal-History.txt:0
+    written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/PuertoRico-History.txt:0
+    written_2/travel_guides/berlitz2/PuertoRico-WhatToDo.txt:0
+    written_2/travel_guides/berlitz2/PuertoRico-WhereToGo.txt:0
+    written_2/travel_guides/berlitz2/Vallarta-History.txt:0
+    written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt:5
+    written_2/travel_guides/berlitz2/Vallarta-WhereToGo.txt:4
+
 Example 2:
+
+    **$ grep -c "tower" written_2/non-fiction/OUP/Rybczynski/*.txt
+    written_2/non-fiction/OUP/Rybczynski/ch1.txt:1
+    written_2/non-fiction/OUP/Rybczynski/ch2.txt:8
+    written_2/non-fiction/OUP/Rybczynski/ch3.txt:1**
 
 Explanation of function: Output count of matching lines only.
 
