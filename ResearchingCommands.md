@@ -1,6 +1,6 @@
-# Researching Commands
---
-
+# Researching Commands (```grep```)
+---
+## 1. -i
 
 
 
