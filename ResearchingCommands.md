@@ -145,10 +145,10 @@ Example 1:
     people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had 
     traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea 
     and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the 
-    Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and 
-    mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in 
-    the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only 
-    two weeks before sailing towards Cuba.
+    Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies 
+    and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others 
+    in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for 
+    only two weeks before sailing towards Cuba.
     written_2/travel_guides/berlitz2/Bahamas-History.txt:7:The Spaniards never bothered to settle in the Bahamas, but the 
     number of shipwrecks attest that their galleons frequently passed through the archipelago en route to and from the 
     Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now 
@@ -166,9 +166,9 @@ Example 2:
     and subsequent book were bound to draw high attention. But no one, not even Schrödinger himself, was likely to have 
     foreseen the consequences. Schrödinger’s What Is Life? is credited with inspiring a generation of physicists and 
     biologists to seek the fundamental character of living systems. Schrödinger brought quantum mechanics, chemistry, and 
-    the still poorly formulated concept of “information” into biology. He is the progenitor of our understanding of DNA and 
-    the genetic code. Yet as brilliant as was Schrödinger’s insight, I believe he missed the center. Investigations seeks 
-    that center and finds, in fact, a mystery.
+    the still poorly formulated concept of “information” into biology. He is the progenitor of our understanding of DNA 
+    and the genetic code. Yet as brilliant as was Schrödinger’s insight, I believe he missed the center. Investigations 
+    seeks that center and finds, in fact, a mystery.
 
 
 Explanation of function: The ```-n``` oprion for ```grep``` looks through the files in a given directory to print the lines of a file matching the given pattern (in quotation marks), with a number after the file name indicating what line number the line is in the file. This could be useful when trying to locate where the pattern is from within the file.
