@@ -154,20 +154,21 @@ Example 1:
     Caribbean, Florida, Bermuda, and their home ports. On Eleuthera the explorers dug a fresh-water well — at a spot now 
     known as “Spanish Wells” — which was used to replenish the supplies of water on their ships before they began the long 
     journey back to Europe with their cargoes of South American gold. As for the Lucayans, within 25 years all of them, 
-    perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and pearl 
-    fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
+    perhaps some 30,000 people, were removed from the Bahamas to work — and die — in Spanish gold mines and on farms and 
+    pearl fisheries on Hispaniola (Haiti), Cuba, and elsewhere in the Caribbean.
 
 Example 2:
 
     $ grep -n "tower" written_2/non-fiction/OUP/Kauffman/*.txt
-    written_2/non-fiction/OUP/Kauffman/ch1.txt:7:ecturing in Dublin, one of the twentieth century’s most famous physicists set
-    the stage of contemporary biology during the war-heavy year of 1944. Given Erwin Schrödinger’s towering reputation as the 
-    discoverer of the Schrödinger equation, the fundamental formulation of quantum mechanics, his public lectures and 
-    subsequent book were bound to draw high attention. But no one, not even Schrödinger himself, was likely to have foreseen 
-    the consequences. Schrödinger’s What Is Life? is credited with inspiring a generation of physicists and biologists to seek 
-    the fundamental character of living systems. Schrödinger brought quantum mechanics, chemistry, and the still poorly 
-    formulated concept of “information” into biology. He is the progenitor of our understanding of DNA and the genetic code. Yet 
-    as brilliant as was Schrödinger’s insight, I believe he missed the center. Investigations seeks that center and finds, in fact, a mystery.
+    written_2/non-fiction/OUP/Kauffman/ch1.txt:7:ecturing in Dublin, one of the twentieth century’s most famous physicists
+    set the stage of contemporary biology during the war-heavy year of 1944. Given Erwin Schrödinger’s towering reputation 
+    as the discoverer of the Schrödinger equation, the fundamental formulation of quantum mechanics, his public lectures 
+    and subsequent book were bound to draw high attention. But no one, not even Schrödinger himself, was likely to have 
+    foreseen the consequences. Schrödinger’s What Is Life? is credited with inspiring a generation of physicists and 
+    biologists to seek the fundamental character of living systems. Schrödinger brought quantum mechanics, chemistry, and 
+    the still poorly formulated concept of “information” into biology. He is the progenitor of our understanding of DNA and 
+    the genetic code. Yet as brilliant as was Schrödinger’s insight, I believe he missed the center. Investigations seeks 
+    that center and finds, in fact, a mystery.
 
 
 Explanation of function: The ```-n``` oprion for ```grep``` looks through the files in a given directory to print the lines of a file matching the given pattern (in quotation marks), with a number after the file name indicating what line number the line is in the file. This could be useful when trying to locate where the pattern is from within the file.
