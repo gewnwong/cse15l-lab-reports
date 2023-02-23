@@ -2,11 +2,12 @@
 
 ---
 
-## 1. Setup Delete any existing forks of the repository you have on your account
+## 1. (Setup) Delete any existing forks of the repository you have on your account
+<img width="831" alt="Screenshot 2023-02-23 at 3 26 29 PM" src="https://user-images.githubusercontent.com/122576781/221054340-687d2fab-900b-4d5a-9ece-72fcfa70f086.png">
 
 
 
-## 2. Setup Fork the repository
+## 2. (Setup) Fork the repository
 
 
 
