@@ -19,7 +19,7 @@ I had to agree to delete the repository from my Github account.
 
 
 
-## 3. The real deal Start the timer!
+## 3. The real deal: Start the timer!
 
 
 
