@@ -35,20 +35,27 @@ I connected to the remote server using my account.
 
 <img width="697" alt="Screenshot 2023-02-23 at 6 11 53 PM" src="https://user-images.githubusercontent.com/122576781/221074972-1c39ca8e-b6c7-40d7-a197-b173ba8cc891.png">
 
-
 Keys pressed: ```git clone <ctrl-V><enter>```
 
-Since I'd previously copied the ```SSH``` clone URL from the forked repository, I typed in the command to clone the repository and pasted the URL right after it.
+Since I'd previously copied the ```SSH``` clone URL from the forked repository, I typed in the command to clone the repository and pasted the URL (``` git@github.com:gewnwong/lab7.git```) right after it.
 
 ## 6. Run the tests, demonstrating that they fail
 
+<img width="704" alt="Screenshot 2023-02-23 at 6 17 45 PM" src="https://user-images.githubusercontent.com/122576781/221075758-5c77e5f9-1511-453c-8800-5b2da8b43030.png">
 
-Keys pressed: ```h```
+Keys pressed: ```cd lab7<enter>```, ```<Ctrl-V><enter>```, ```<Ctrl-V> Li<tab><enter>```
+
+I first changed the working directory to ```lab7``` so I could then compile, run, and work on the files within that directory. I then copied the command to compile the files (```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```) from elsewhere and pasted it on the command line. To run the tests and demonstrate that they fail, I copied the command to run the tester (```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore```) from elsewhere, pasted it on the command line, and added the file after it that I wanted to be run. The ```<tab>``` after the ```Li``` autocompleted to ```ListExamplesTests```.
 
 ## 7. Edit the code file to fix the failing test
 
+<img width="412" alt="Screenshot 2023-02-23 at 6 37 07 PM" src="https://user-images.githubusercontent.com/122576781/221078269-d942bbe5-1955-4aeb-8444-74adcee3fd45.png">
 
-Keys pressed: ```h```
+<img width="697" alt="Screenshot 2023-02-23 at 6 37 44 PM" src="https://user-images.githubusercontent.com/122576781/221078339-0da65ee9-d992-4aa9-87c6-b5e90ade10ef.png">
+
+Keys pressed: ```nano Li<tab>.j<tab><enter>```, ```<Ctrl-W>< 0<enter>```, ```<right>=```, ```<down><down><down><down><down><down><down><down><down><down><down><down><down><down><down><left><left><left><left><left><left><backspace>2```, ```<Ctrl-O><enter>```, ```<Ctrl-X>```
+
+I used the command ```nano``` to open an editor of the file ```ListExamples.java``` that was filled in with the help of autocomplete. To get the cursor to where the first bug was located, I used ```<Ctrl-W>``` to search and go to where ```< 0``` was. I then used the right arrow key to get to the spot in front of the ```<```, where I then added an equal sign to make the code there correct. Once again, I used the arrow keys to get to the second bug, hten changed the line ```index1 +=1;``` to ```index2 += 1;``` to be correct. To save this file, I used ```<Ctrl-O>```, and to exit, I used ```Ctrl-X```.
 
 ## 8. Run the tests, demonstrating that they now succeed
 
