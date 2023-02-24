@@ -16,6 +16,7 @@ Keys pressed: ```gewnwong/lab7<enter>```
 I had to agree to delete the repository from my Github account. 
 
 ## 2. (Setup) Fork the repository
+![Screenshot 2023-02-23 at 5 59 16 PM](https://user-images.githubusercontent.com/122576781/221073571-f4864c39-5590-4973-b0e7-922a362d211f.png)
 
 
 
