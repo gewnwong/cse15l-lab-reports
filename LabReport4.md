@@ -59,10 +59,11 @@ I used the command ```nano``` to open an editor of the file ```ListExamples.java
 
 ## 8. Run the tests, demonstrating that they now succeed
 
+<img width="699" alt="Screenshot 2023-02-23 at 6 51 15 PM" src="https://user-images.githubusercontent.com/122576781/221080141-1c9c0548-9c07-4e19-91e5-203c85d485bd.png">
 
+Keys pressed: ```<up><up><up><enter>```, ```<up><up><up><enter>```
 
-Keys pressed: ```<up><up><up><enter>```, ```<up><up><up><enter>```,
-
+The ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command was 3 up in the search history, so I used the up arrow to access it. Then the ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` command to run the compiled tester was 3 up in the search history, so I accessed and ran it in the same way.
 
 ## 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
 
