@@ -65,6 +65,13 @@ Keys pressed: ```<up><up><up><enter>```, ```<up><up><up><enter>```
 
 The ```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java``` command was 3 up in the search history, so I used the up arrow to access it. Then the ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests``` command to run the compiled tester was 3 up in the search history, so I accessed and ran it in the same way.
 
-## 9. Commit and push the resulting change to your Github account (you can pick any commit message!)
+## 9. Commit and push the resulting change to your Github account 
 
-Keys pressed: ```h```
+<img width="706" alt="Screenshot 2023-02-23 at 6 55 28 PM" src="https://user-images.githubusercontent.com/122576781/221080688-3c727347-890c-434f-9b70-f2ee1024972c.png">
+
+![Screenshot 2023-02-23 at 6 55 49 PM](https://user-images.githubusercontent.com/122576781/221080766-2033c2a3-8260-42cf-a19a-dada8bf712ce.png)
+
+
+Keys pressed: ```git add L<tab>.j<tab><enter>```, ```git commit -m "yAy"```, ```git push```
+
+I added ```ListExamples.java``` to git using autofilled results, then committed and pushed. The commit message showed up on my Github, showing that these steps worked.
