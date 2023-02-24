@@ -35,7 +35,7 @@ I connected to the remote server using my account.
 
 <img width="697" alt="Screenshot 2023-02-23 at 6 11 53 PM" src="https://user-images.githubusercontent.com/122576781/221074972-1c39ca8e-b6c7-40d7-a197-b173ba8cc891.png">
 
-Keys pressed: ```git clone <ctrl-V><enter>```
+Keys pressed: ```git clone <Ctrl-V><enter>```
 
 Since I'd previously copied the ```SSH``` clone URL from the forked repository, I typed in the command to clone the repository and pasted the URL (``` git@github.com:gewnwong/lab7.git```) right after it.
 
@@ -43,7 +43,7 @@ Since I'd previously copied the ```SSH``` clone URL from the forked repository, 
 
 <img width="703" alt="Screenshot 2023-02-23 at 6 49 28 PM" src="https://user-images.githubusercontent.com/122576781/221079897-3b56188e-407f-43e2-aa35-0abc35da49e8.png">
 
-Keys pressed: ```cd lab7<enter>```, ```<Ctrl-V><enter>```, ```<Ctrl-V> Li<tab>Tests<enter>```
+Keys pressed: ```cd lab7<enter>```, ```<Ctrl-C><Ctrl-V><enter>```, ```<Ctrl-C><Ctrl-V> Li<tab>Tests<enter>```
 
 I first changed the working directory to ```lab7``` so I could then compile, run, and work on the files within that directory. I then copied the command to compile the files (```javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java```) from elsewhere and pasted it on the command line. To run the tests and demonstrate that they fail, I copied the command to run the tester (```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore```) from elsewhere, pasted it on the command line, and added the file after it that I wanted to be run. The ```<tab>``` after the ```Li``` autocompleted to ```ListExamples``` and then I added ```Tests```.
 
