@@ -110,9 +110,32 @@ Not shown in ```grade.sh```, I added another test to the ```TestListExamples.jav
 
 ---
 
+I ran all the files given to test ```grade.sh``` in lab 6 on my ```grade.sh```.
+
+Submission that times out for ```merge```:
+
 ![Screenshot 2023-03-10 at 12 56 13 PM](https://user-images.githubusercontent.com/122576781/224426610-e627a11c-acef-48ee-a284-ef6cc028c60a.png)
 
+Submission that is correct for both ```merge``` and ```filter```:
 
+![Screenshot 2023-03-10 at 2 28 02 PM](https://user-images.githubusercontent.com/122576781/224439993-0d8b1904-5a2f-48be-ae9d-bd0c6d74f38e.png)
 
+Submission with a syntax error in ```ListExamples.java```:
 
-For lab 6 (about creating a grading script), finish the grading script and take screenshots that demonstrate it working on several files.
+![Screenshot 2023-03-10 at 2 29 02 PM](https://user-images.githubusercontent.com/122576781/224440105-dc184062-f58f-4365-976f-5fb7c894878b.png)
+
+Submission with incorrect order of arguments for ```filter```:
+
+![Screenshot 2023-03-10 at 2 30 17 PM](https://user-images.githubusercontent.com/122576781/224440293-f539cc7a-30ce-4210-930e-6f015c6c42c4.png)
+
+Submission with incorrect file name:
+
+![Screenshot 2023-03-10 at 2 31 09 PM](https://user-images.githubusercontent.com/122576781/224440430-b83bd6d0-c6d6-482e-b196-d18c254ec7ae.png)
+
+Submission in a nested directory:
+
+![Screenshot 2023-03-10 at 2 32 03 PM](https://user-images.githubusercontent.com/122576781/224440565-42c21e9d-adbd-4165-b512-5aab3aefebea.png)
+
+"Challenge" submission (only merges one copy if duplicates occur between the left and right halves):
+
+![Screenshot 2023-03-10 at 2 34 33 PM](https://user-images.githubusercontent.com/122576781/224440862-73f0ca72-0ae3-4c47-9cea-00ea5469da79.png)
