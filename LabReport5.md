@@ -66,7 +66,6 @@ else
     RESULT=`grep "Tests run:" junit-output.txt`
 
     TOTAL=${RESULT:11:2}
-    echo $TOTAL
     SECOND_DIGIT=${TOTAL:1:1}
     if [[ $SECOND_DIGIT = "," ]]
     then
@@ -74,7 +73,6 @@ else
     fi
 
     FAILED=${RESULT:25:2}
-    echo $FAILED
     SECOND_DIGIT=${FAILED:1:1}
     if [[ $SECOND_DIGIT = " " ]]
     then 
@@ -83,7 +81,6 @@ else
 
     echo "JUnit output was:"
     cat junit-output.txt
-    echo ""
     echo "Score: $(($TOTAL - $FAILED))/$TOTAL"
 fi
 ```
@@ -112,6 +109,8 @@ Not shown in ```grade.sh```, I added another test to the ```TestListExamples.jav
 # Output of my ```grade.sh```
 
 ---
+
+![Screenshot 2023-03-10 at 12 54 47 PM](https://user-images.githubusercontent.com/122576781/224426370-eb3f54cd-f8c0-420c-856c-3c96554f6276.png)
 
 
 
