@@ -110,7 +110,8 @@ Not shown in ```grade.sh```, I added another test to the ```TestListExamples.jav
 
 ---
 
-![Screenshot 2023-03-10 at 12 54 47 PM](https://user-images.githubusercontent.com/122576781/224426370-eb3f54cd-f8c0-420c-856c-3c96554f6276.png)
+![Screenshot 2023-03-10 at 12 56 13 PM](https://user-images.githubusercontent.com/122576781/224426610-e627a11c-acef-48ee-a284-ef6cc028c60a.png)
+
 
 
 
