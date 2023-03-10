@@ -8,7 +8,7 @@
 
 ---
 
-Since my group did lab 6 by writing ```grade.sh``` together on one of my partners' computer, I thought it would be helpful to code it myself. During lab, my group also opted for only pass/fail output instead of exactly how many tests passed out of how many ran, so I made ```grade.sh``` include fractional results indicating partial credit.
+Since my group did lab 6 by writing ```grade.sh``` together on one of my partners' computer, I thought it would be helpful to code it myself. During lab, my group also opted for only pass/fail output instead of exactly how many tests passed out of how many ran, so I made my ```grade.sh``` include fractional results indicating partial credit.
 
 Here is my code for ```grade.sh```:
 
@@ -87,6 +87,31 @@ else
     echo "Score: $(($TOTAL - $FAILED))/$TOTAL"
 fi
 ```
+
+Issues/complications I ran into while writing ```grade.sh```:
+- I had to look up what the ```-c``` option did. (It counts the number of lines with the specified string.)
+- I forgot to include output for if the student submission fails to compile. (I also had to look back in the notes to recall that error output and normal output can be saved to a file using ```&>```.)
+- I wasn't sure how to do arithmetic operations between what I saw as two strings, but, after some research, I learned that bash sees variables as integers or strings based on context. 
+- I learned how to get a substring in bash, using the syntax ```${VAR:N:M}```. 
+
+Not shown in ```grade.sh```, I added another test to the ```TestListExamples.java``` file to test the ```filter``` method in ```ListExamples.java``` as shown here:
+
+```java
+@Test(timeout = 500)
+  public void testFilter() {
+    List<String> s1 = Arrays.asList("a", "b", "c");
+    List<String> s2 = Arrays.asList("d", "a");
+    List<String> expect = Arrays.asList("a");
+    List<String> result1 = ListExamples.filter(s1, new IsA());
+    List<String> result2 = ListExamples.filter(s2, new IsA());
+    assertEquals(expect, result1);
+    assertEquals(expect, result2);
+  }
+```
+
+# Output of my ```grade.sh```
+
+---
 
 
 
